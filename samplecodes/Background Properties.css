@@ -1,0 +1,63 @@
+p::before{
+    content: ' Read this paragraph for understanding ';
+    color: red;
+}
+p::after{
+    content: ' completed ';
+    color: green;
+}
+/* P::first-line{
+    color: blueviolet;
+    font-size: large;
+} */
+P::first-letter{
+    color: blueviolet;
+    font-size: large;
+}
+.x:focus{
+    border:5px solid red;
+    background-color: aquamarine;
+}
+
+.y:focus{
+    border: 4px solid blue;
+    background-color: aquamarine;
+}
+span{
+    color: rgb(84, 28, 6);
+}
+
+::selection{
+    color: blue;
+    background-color: rgb(255, 47, 200);
+}
+#sign:hover{
+    color: burlywood;
+}
+#sign:active{
+    color: red;
+    background-color: aqua;
+}
+#anc:visited{
+    color: black;
+}
+#anc::before{
+    content: "VISIT: ";
+    color: goldenrod;
+}
+
+a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }  
